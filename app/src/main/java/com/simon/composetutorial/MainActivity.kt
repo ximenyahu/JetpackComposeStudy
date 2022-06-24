@@ -25,3 +25,9 @@ class MainActivity : ComponentActivity() {
 fun MessageCard(msg: String) {
     Text(text = msg)
 }
+
+@Preview
+@Composable
+fun PreviewMessageCard() {
+    MessageCard(msg = "Hello")
+}
